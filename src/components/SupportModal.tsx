@@ -72,10 +72,10 @@ const SupportModal: React.FC<SupportModalProps> = ({ isOpen, onOpenChange }) => 
         },
         {
             onSuccess: () => {
-                toast.success("Tu trzeba zrobić element");
+                toast.success("Dziękujemy za wsparcie. Za chwile zostaniesz potwierdzony w systemie.");
             },
             onError: () => {
-                toast.error("Tu tak samo");
+                toast.error("Nie udało się wysłać poparcia.");
             }
         }
         )
